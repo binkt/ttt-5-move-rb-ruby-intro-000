@@ -2,7 +2,7 @@
 
 require_relative '../lib/move.rb'
 puts "Welcome to Tic Tac Toe!"
-board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
+board = array.new
 puts "Which cell position do you want to mark 1/9?"
 position = gets.strip
 puts "Do you want to mark it with an X or an O?"
