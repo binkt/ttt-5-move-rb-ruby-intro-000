@@ -7,4 +7,4 @@ puts "Which cell position do you want to mark 1/9?"
 position = gets.strip
 cell_index = input_to_index(position)
 newboard = move(board, cell_index)
-display_board(board)
+display_board(newboard)
