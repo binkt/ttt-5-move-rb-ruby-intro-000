@@ -3,5 +3,7 @@
 require_relative '../lib/move.rb'
 puts "Welcome to Tic Tac Toe!"
 puts "Which cell do you want to mark 1/9?"
-  position = gets.strip
+position = gets.strip
+input_to_index(position)
+
 board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
