@@ -5,6 +5,3 @@ puts "Welcome to Tic Tac Toe!"
 puts "Which cell do you want to mark 1/9?"
   position = gets.trim.chomp
 board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
-
-
-# Code your CLI Here
