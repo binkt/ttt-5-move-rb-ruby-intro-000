@@ -5,7 +5,7 @@ puts "Welcome to Tic Tac Toe!"
 board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 display_board(board)
 puts "Which cell position do you want to mark 1/9?"
-position = gets.strip
-cell_index = input_to_index(position)
+position = input_to_index(gets.strip)
+#cell_index = input_to_index(position)
 move(board, cell_index)
 display_board(board)
