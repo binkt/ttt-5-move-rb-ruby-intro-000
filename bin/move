@@ -9,4 +9,4 @@ puts "Do you want to mark it with an X or an O?"
 mark = gets.strip
 cell_index = input_to_index(position)
 newboard = move(board, cell_index)
-display_board(newboard)
+display_board(board)
